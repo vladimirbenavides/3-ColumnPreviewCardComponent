@@ -2,6 +2,6 @@
 Responsive project  using Html and Css
 
 # Live Site Url  
-https://github.com/vladimirbenavides/StatsPreviewCardComponent
+https://vladimirbenavides.github.io/3-ColumnPreviewCardComponent/
 
 Any suggestions on how I can improve are welcome!
