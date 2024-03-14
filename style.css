@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Colors */
+--BrightOrange: hsl(31, 77%, 52%);
+--DarkCyan: hsl(184, 100%, 22%);
+--VerydarkCyan: hsl(179, 100%, 13%);
+--Transparentwhite : hsla(0, 0%, 100%, 0.75);/*(paragraphs)*/
+--VerylightGray : hsl(0, 0%, 95%);/*(background, headings, buttons)*/
+}
+body{
+    font-family: "Lexend Deca", sans-serif;
+   background: var(--VerylightGray);
+   font-size: 15px;
+}
+
+
+
+ .main-container{
+    width: 325px;
+    margin: 87px auto 40px;
+    border-radius: 8px;
+    overflow: hidden;
+
+ }  
+ 
+ article{
+    width: 100%;
+    height: 440px;
+    padding: 48px;
+ }
+ .sedan{
+    background-color: var(--BrightOrange); 
+ }
+ .suv{
+    background-color: var(--DarkCyan);
+ }
+ .luxury{
+    background-color: var(--VerydarkCyan);
+ }
+ img{
+    margin-bottom: 36px;
+ }
+ h2{
+    color: var(--VerylightGray);
+    font-family: "Big Shoulders Display", sans-serif; 
+    font-size: 2.4em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+ }
+ p{
+    color: var(--Transparentwhite);
+    line-height: 25px;
+    margin-bottom: 25px;
+ }
+ button{
+    width: 148px;
+    height: 46px;
+    border-radius: 45px;
+    border-style: none;
+    background-color: var(--VerylightGray);
+    font-family:  "Lexend Deca", sans-serif;
+    font-size: 15px;
+ }
+ button:hover{
+    cursor: pointer;
+    border: 2px solid var(--Transparentwhite);
+ }
+ .sedan-btn{
+    color: var(--BrightOrange);
+ }
+ .sedan-btn:hover{
+    background-color: var(--BrightOrange);
+    color: var(--VerylightGray);
+ }
+
+ .suv-btn{
+    color: var(--DarkCyan);
+ }
+ .suv-btn:hover{
+    color: var(--VerylightGray);
+    background-color: var(--DarkCyan);
+ }
+.luxury-btn{
+    color:var(--VerydarkCyan)
+}
+.luxury-btn:hover{
+    color: var(--VerylightGray);
+    background-color: var(--VerydarkCyan);
+}
+
+/*footer*/
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+    }
+
+/*Media Queries*/
+
+@media screen and (min-width:944px) {
+
+    .main-container{
+    width: 924px;
+    display: flex;
+    margin-top: 170px;
+    }
+    article{
+        height: 500px;
+    }
+    p{
+        margin-bottom: 80px;
+    }
+    
+}
